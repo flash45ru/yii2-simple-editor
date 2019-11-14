@@ -1,0 +1,31 @@
+{
+  "name": "flash45ru/yii2-simple-editor",
+  "description": "виджет визуального редактора",
+  "keywords": ["yii2", "yii2", "application", "editor", "yii2-editor", "flash45ru"],
+  "homepage": "https://github.com/flash45ru/yii2-simple-editor",
+  "type": "yii2-extension",
+  "license": "Apache-2.0",
+  "support": {
+    "source": "https://github.com/flash45ru/yii2-simple-editor"
+  },
+  "authors": [
+    {
+      "name": "Andrey Sifonov",
+      "email": "flash45ru@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "yiisoft/yii2-bootstrap": "*"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "autoload": {
+    "psr-4": {
+      "flash45\\simpleEditor\\": "src\\"
+    }
+  }
+}
