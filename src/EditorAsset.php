@@ -19,7 +19,7 @@ class EditorAsset extends AssetBundle
 
     public function init()
     {
-        $this->sourcePath = dirname(__DIR__) . '/web';
+        $this->sourcePath = dirname(__DIR__) . '/src/web';
         parent::init();
     }
 }
